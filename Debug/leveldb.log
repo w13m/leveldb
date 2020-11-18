@@ -1,0 +1,78 @@
+﻿  win_logger.cc
+  testutil.cc
+  testharness.cc
+util\testharness.cc(37): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+util\testharness.cc(68): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+  status.cc
+  options.cc
+  logging.cc
+  histogram.cc
+  hash.cc
+  filter_policy.cc
+  env_boost.cc
+util\env_boost.cc(73): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(178): note: see declaration of 'strerror'
+util\env_boost.cc(552): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+util\env_boost.cc(555): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(178): note: see declaration of 'strerror'
+  env.cc
+  crc32c.cc
+  comparator.cc
+  coding.cc
+  cache.cc
+  bloom.cc
+util\bloom.cc(50): warning C4018: '<': signed/unsigned mismatch
+  arena.cc
+  two_level_iterator.cc
+  table_builder.cc
+  table.cc
+  Generating Code...
+  Compiling...
+  merger.cc
+  iterator.cc
+  format.cc
+  filter_block.cc
+table\filter_block.cc(100): warning C4018: '<=': signed/unsigned mismatch
+  block_builder.cc
+  block.cc
+  sha1_portable.cc
+  port_win.cc
+  memenv.cc
+  write_batch.cc
+  version_set.cc
+db\version_set.cc(693): warning C4244: '=': conversion from 'uint64_t' to 'std::size_t', possible loss of data
+db\version_set.cc(1237): warning C4018: '<=': signed/unsigned mismatch
+  version_edit.cc
+  table_cache.cc
+  repair.cc
+  memtable.cc
+  log_writer.cc
+  log_reader.cc
+  leveldb_main.cc
+  filename.cc
+  dumpfile.cc
+  Generating Code...
+  Compiling...
+  db_iter.cc
+  db_impl.cc
+  dbformat.cc
+  c.cc
+db\c.cc(125): warning C4800: 'unsigned char': forcing value to bool 'true' or 'false' (performance warning)
+db\c.cc(139): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+db\c.cc(143): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+db\c.cc(248): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+db\c.cc(410): warning C4800: 'unsigned char': forcing value to bool 'true' or 'false' (performance warning)
+db\c.cc(415): warning C4800: 'unsigned char': forcing value to bool 'true' or 'false' (performance warning)
+db\c.cc(420): warning C4800: 'unsigned char': forcing value to bool 'true' or 'false' (performance warning)
+db\c.cc(535): warning C4800: 'unsigned char': forcing value to bool 'true' or 'false' (performance warning)
+db\c.cc(540): warning C4800: 'unsigned char': forcing value to bool 'true' or 'false' (performance warning)
+db\c.cc(559): warning C4800: 'unsigned char': forcing value to bool 'true' or 'false' (performance warning)
+  builder.cc
+  Generating Code...
+  leveldb.vcxproj -> C:\Dev\leveldb\Debug\leveldb.lib

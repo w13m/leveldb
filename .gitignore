@@ -31,3 +31,5 @@ cmake_install.cmake
 *.sln
 *.vcxproj
 *.vcxproj.filters
+*.obj
+*.tlog
